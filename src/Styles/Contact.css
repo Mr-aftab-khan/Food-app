@@ -1,0 +1,57 @@
+.contact-img {
+    /* The image used */
+    background-image: url("../Images/herobanner.jpg");
+
+    min-height: 85vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Add styles to the form container */
+.contact-container {
+    position: absolute;
+    /* right: 0; */
+    left: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgb(248, 165, 57);
+    border-radius: 10px;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    border: none;
+    border-radius: 30px;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.contact-btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.contact-btn:hover {
+    opacity: 1;
+}

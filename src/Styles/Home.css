@@ -1,0 +1,155 @@
+body {
+  /* height: 3000px; */
+  background-color:rgb(255, 123, 0);
+}
+
+.navbar ul li:hover {
+  border-bottom: 1px solid gray;
+}
+
+h1 {
+  color: orange;
+}
+
+.food-container {
+  position: relative;
+  width: 100%;
+  border: 0px solid saddlebrown;
+
+  border-radius: 20px;
+}
+
+.food-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.food-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 20px;
+  background-color: rgb(175, 28, 28);
+  opacity: .9;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.food-container:hover .food-overlay {
+  height: 83%;
+}
+
+.food-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* overflow-y: auto; */
+}
+
+/* =========================Rich Deal=============================== */
+
+.deal-column {
+  float: left;
+  width: 33.3%;
+
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .deal-column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.deal-card {
+  box-shadow: 0 8px 16px 0 rgba(223, 171, 59, 0.856);
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.deal-card img{
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.deal-container {
+  padding: 0 16px;
+}
+
+.deal-container::after,
+.deal-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.deal-title {
+  color: grey;
+}
+
+.deal-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #d44316;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.deal-button:hover {
+  transition: all .5s ease-in-out;
+  background-color: #555;
+}
+
+.deal-container ul {
+  list-style: none;
+}
+
+/* ============================Why section========================= */
+
+.bgc-inserter {
+  /* The image used */
+  background-image: url("../Images/whybgc3.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.why-hero img {
+  width: 90%;
+  height: 90%;
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+.order-btn{
+  margin-left: 32%;
+}
+/* ===========================Footer============================= */
+.footer-section ul li {
+  list-style: none;
+  margin-left: -4%;
+}
+
+footer img {
+  border-radius: 50%;
+}
