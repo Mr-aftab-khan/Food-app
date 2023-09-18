@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Food-app/static/css/main.80d0ee98.css",
+    "main.js": "/Food-app/static/js/main.58641fbe.js",
+    "static/media/herobanner.jpg": "/Food-app/static/media/herobanner.02846678326e3d062279.jpg",
+    "static/media/whybgc3.jpg": "/Food-app/static/media/whybgc3.54c1a1ab5764d70256d4.jpg",
+    "static/media/whydemo.png": "/Food-app/static/media/whydemo.f70d117610fc40ea07a6.png",
+    "static/media/deal1.jpg": "/Food-app/static/media/deal1.3f6826ece96986c25afa.jpg",
+    "static/media/pizza2.jpg": "/Food-app/static/media/pizza2.b8ae3c003832538ec9ef.jpg",
+    "static/media/pizza4.jpg": "/Food-app/static/media/pizza4.666f8d7f5ca73183a53f.jpg",
+    "static/media/deal9.jpg": "/Food-app/static/media/deal9.668d98ddfdb8f76d22ac.jpg",
+    "static/media/deal8.jpeg": "/Food-app/static/media/deal8.760428453a168e402ff3.jpeg",
+    "static/media/deal3.webp": "/Food-app/static/media/deal3.bd92c3639ce5acfc84d5.webp",
+    "static/media/deal7.webp": "/Food-app/static/media/deal7.7e1a8138ee21e5ad0f9d.webp",
+    "static/media/pasta5.webp": "/Food-app/static/media/pasta5.2b213d18f4959a1a7ebe.webp",
+    "static/media/buffet.webp": "/Food-app/static/media/buffet.c62f9f1ad77371cdea52.webp",
+    "static/media/deal2.jpg": "/Food-app/static/media/deal2.4f884bf94e9bbed32fc4.jpg",
+    "static/media/pizza5.jpg": "/Food-app/static/media/pizza5.91ad39d2b9ea089c15eb.jpg",
+    "static/media/past2.jpg": "/Food-app/static/media/past2.979b80aa2e2f4c1b7557.jpg",
+    "static/media/deal5.jpg": "/Food-app/static/media/deal5.e5cd1c40fdf74b038754.jpg",
+    "static/media/pasta4.jpg": "/Food-app/static/media/pasta4.e5cd1c40fdf74b038754.jpg",
+    "static/media/pasta3.jpg": "/Food-app/static/media/pasta3.6760ec38ed883761bccd.jpg",
+    "static/media/pizza logo.avif": "/Food-app/static/media/pizza logo.1de9ae5dc3902d0077d9.avif",
+    "index.html": "/Food-app/index.html",
+    "main.80d0ee98.css.map": "/Food-app/static/css/main.80d0ee98.css.map",
+    "main.58641fbe.js.map": "/Food-app/static/js/main.58641fbe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80d0ee98.css",
+    "static/js/main.58641fbe.js"
+  ]
+}
